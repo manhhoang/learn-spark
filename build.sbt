@@ -9,7 +9,9 @@ libraryDependencies ++= Seq(
 	"com.novocode" % "junit-interface" % "0.11" % "test",
 	"org.specs2" %% "specs2-core" % "3.8.4" % "test",
 	"org.scalatest" %% "scalatest" % "3.0.0" % "test",
-	"org.apache.spark" %% "spark-core" % "2.1.0" % "compile"
+	"org.apache.spark" %% "spark-core" % "2.1.0" % "compile",
+	"org.apache.spark" %% "spark-sql" % "2.1.0" % "compile",
+	"org.apache.spark" %% "spark-streaming" % "2.1.0" % "compile"
 )
 
 
